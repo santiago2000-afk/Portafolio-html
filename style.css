@@ -10,7 +10,7 @@ body {
 }
 
 .content {
- padding: 24px 48px;
+ padding: 24px 100px;
 }
 
 .site-header .content {
@@ -48,6 +48,10 @@ body {
     text-align: center;
 }
 
+.hero {
+    margin: 100px 0;
+}
+
 .hero h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 62px;
@@ -74,5 +78,45 @@ body {
 }
 
 .hero button:hover {
+    filter: contrast(250%);
+}
+
+.about {
+    margin: 150px 0;
+    min-height: 50vh;
+}
+
+.about .content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.about p {
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.about button {
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 16px;
+    margin-top: 24px;
+}
+
+.about button:hover {
     filter: contrast(250%);
 }
